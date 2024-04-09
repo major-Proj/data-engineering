@@ -6,7 +6,7 @@ Q4,COMMON,How well did the project meet the deadlines this week?,Adherence to de
 Q5,COMMON,How would you rate the quality of work delivered this week?,Work quality assessment
 Q6,CONSULTANT,How well did the project meet the client's requirements this week?,Client requirement satisfaction
 Q7,CONSULTANT,How likely are you to recommend our services to others this week?,Likelihood to recommend
-Q8,CONSULTANT,On a scale of 1 to 5, how satisfied are you with the consulting services provided this week?,Consulting service satisfaction
+Q8,CONSULTANT,On a scale of 1 to 5 how satisfied are you with the consulting services provided this week?,Consulting service satisfaction
 Q6,ENGINEER,How satisfied are you with the technical aspects of the project this week?,Technical satisfaction
 Q7,ENGINEER,How well did the project adhere to the specifications this week?,Adherence to specifications
-Q8,ENGINEER,On a scale of 1 to 5, how satisfied are you with the technical aspects of the project this week?,Technical satisfaction
+Q8,ENGINEER,On a scale of 1 to 5 how satisfied are you with the technical aspects of the project this week?,Technical satisfaction

@@ -14,4 +14,4 @@ required_field AS (
     FROM {{ source('timely','USERS') }}
 )
 
-select * from required_field;
+select * from required_field

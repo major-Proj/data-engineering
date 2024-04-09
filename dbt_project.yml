@@ -1,5 +1,5 @@
 
-name: 'my_new_project'
+name: 'timely'
 version: '1.0.0'
 config-version: 2
 
@@ -21,16 +21,17 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   timely:
     +database: timely
-    +materialized: table
 
-  staging:
-    +schema: stg
-  
-  mart:
-    +schema: mart
+    staging:
+      +schema: stg
+      +materialized: table
+    
+    mart:
+      +schema: mart
+      +materialized: table
 
 seeds:
   timely:
     +database: timely
-    +materialized: table
+    +schema: stg
 
