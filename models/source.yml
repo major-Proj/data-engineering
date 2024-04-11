@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: timely
+    database: timely
+    schema: raw
+    tables:
+      - name: FEEDBACKS
+      - name: FEEDBACK_HISTORIES
+      - name: PROJECTASSIGNMENTS
+      - name: PROJECTS
+      - name: TIMESHEETS
+      - name: USERS
